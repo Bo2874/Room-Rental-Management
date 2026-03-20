@@ -25,11 +25,7 @@ object RoomController {
         }
     }
 
-    fun deleteRoom(index: Int) {
-        if (index in roomList.indices) {
-            roomList.removeAt(index)
-        }
-    }
+
 
     fun isRoomIdDuplicate(id: String, excludeIndex: Int = -1): Boolean {
         return roomList.filterIndexed { i, room -> i != excludeIndex && room.id == id }.isNotEmpty()
