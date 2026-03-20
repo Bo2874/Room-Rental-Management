@@ -110,17 +110,5 @@
                 android:src="@android:drawable/ic_menu_delete"
                 android:contentDescription="Xóa" />
         </LinearLayout>
-        <com.google.android.material.appbar.AppBarLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <androidx.appcompat.widget.Toolbar
-                android:id="@+id/toolbar"
-                android:layout_width="match_parent"
-                android:layout_height="?attr/actionBarSize"
-                android:background="@color/primary"
-                android:title="Quản lý phòng trọ"
-                android:titleTextColor="#FFFFFF" />
-        </com.google.android.material.appbar.AppBarLayout>
     </LinearLayout>
 </androidx.cardview.widget.CardView>
